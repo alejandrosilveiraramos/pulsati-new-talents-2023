@@ -1,0 +1,15 @@
+First class about logic and algorithm.
+
+	Djohn had to go to another head office, so John start to teaching us.
+
+Git
+	Set git config PROFILE (username/email)
+
+GitHub
+	Up the first repository
+
+VSCODE
+	install Packages Extension
+
+WEB development
+	HTML, JS, CSS

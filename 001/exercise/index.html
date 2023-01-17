@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+</head>
+<body>
+
+    <script>
+        // //001 Peça para o usuario informar duas notas com o prompt e depois converta para numero e depois mostre a media entre eles
+
+        // let firstNumber = parseFloat(prompt('Choose numbers to sum, First number: '))
+        // let secondNumber = parseFloat(prompt('Second number: '))
+
+        // document.write(firstNumber + secondNumber)
+
+
+
+
+        //002 Peça três notas ao aluno, converta para numero e calcule a media do mesmo, caso a media for menor que 7 mostrar que foi reprovado, caso a media seja exatamente 7 mostrar que ele passou com a media 7 caso a media seja maior que 7 mostrar que ele passou com media acima de 7.
+
+        // let firstGrade = parseFloat(prompt('What is your first grade: '))
+        // let secondGrade = parseFloat(prompt('What is your second grade: '))
+        // let thirdGrade = parseFloat(prompt('What is your third grade: '))
+        
+        // let media = (firstGrade + secondGrade + thirdGrade)/ 3
+
+        // if (media < 7){
+        //     document.write('Your media ' + media + ' DISAPPROVED')
+        // }
+        // else if (media == 7){
+        //     document.write('Your media ' + media + ' APPROVED with the minimum to pass')
+        // }
+        // else{
+        //     document.write('Your media ' + media + ' APPROVED with more than the minimum to pass')
+        // }
+
+
+        
+
+        //003 Criar uma calculadora, onde o usuario informa 2 números e a operação matemática que ele quer e depois mostrar o resultado na tela.
+
+        // let firstNumber = parseFloat(prompt('Choose numbers to before choose a opperation you wanna make it, First number: '))
+        // let secondNumber = parseFloat(prompt('Second number: '))
+        
+        // let choice = prompt(('What opperation you wanna do now? +, -, *, /'))
+
+        // if (choice == '+'){
+        //     document.write(firstNumber+secondNumber)
+        // }
+        // else if (choice == '-'){
+        //     document.write(firstNumber-secondNumber)
+        // }
+        // else if (choice == '*'){
+        //     document.write(firstNumber*secondNumber)
+        // }
+        // else if(choice == '/'){
+        //     document.write(firstNumber/secondNumber)
+        // }
+        // else{
+        //     document.write('That opperation doesnt exist')
+        // }
+
+
+
+
+
+        //004 Faça um programa onde peça para o usuario informar 3 numeros, e depois mostre qual o MAIOR numero entre eles.
+
+        // let firstNumber = parseFloat(prompt('First number: '))
+        // let secondNumber = parseFloat(prompt('Second number: '))
+        // let thirdNumber = parseFloat(prompt('Third number: '))
+
+        // if (firstNumber > secondNumber && firstNumber > thirdNumber){
+        //     document.write(firstNumber + ' Is the bigger number one')
+        // }
+        // else if (secondNumber > firstNumber && secondNumber > thirdNumber){
+        //     document.write(secondNumber + ' Is the bigger number one')
+        // }
+        // else{
+        //     document.write(thirdNumber + ' Is the bigger number one')
+        // }
+
+
+
+
+
+        //006 Faça um programa que peça os 3 lados de um triangulo e mostre qual o tipo: Equilátero, isoceles, Escaleno
+        //Equilatero: 3 lados iguais
+        //Isosceles: 2 lados iguais e 1 diferente
+        //Escaleno: 3 lados diferentes
+        
+        // let firstNumber = parseFloat(prompt('First number: '))
+        // let secondNumber = parseFloat(prompt('Second number: '))
+        // let thirdNumber = parseFloat(prompt('Third number: '))
+        
+        // if (firstNumber == secondNumber && firstNumber == thirdNumber && secondNumber == thirdNumber){
+        //     document.write('The triangle Is Equilatero')
+        // }
+        // else if (firstNumber == secondNumber && firstNumber == thirdNumber && secondNumber != thirdNumber){
+        //     document.write('The triangle Is Isosceles')
+        // }
+        // else if(secondNumber == secondNumber && secondNumber != thirdNumber && firstNumber == thirdNumber){
+        //         document.write('The triangle Is Isosceles')
+        // }
+        // else if(thirdNumber != secondNumber && thirdNumber== thirdNumber && secondNumber == firstNumber){
+        //     document.write('The triangle Is Isosceles')
+        // }
+        // else{
+        //     document.write('The triangle Is Escaleno')
+        // }
+
+
+
+
+
+        //007 Peça para informar 3 notas do alunos e sua quantidade de faltas para o aluno aprovar é necessario que ele tenha media acima de 7 e faltas menor que 50
+
+        // let firstGrade = parseFloat(prompt('First Grade: '))
+        // let secondGrade = parseFloat(prompt('Second Grade: '))
+        // let thirdGrade = parseFloat(prompt('Third Grade: '))
+        
+        // let media = (firstGrade + secondGrade + thirdGrade)/ 3
+
+        // let presence = 50
+
+        // if (media < 7){
+        //     document.write('Your media ' + media + ' DISAPPROVED')
+        // }
+        // else if (media == 7 || media > 7){
+        //     if (presence < 50){
+        //         document.write('Your media ' + media + 'and your presence '+ presence + 'DISAPPROVED')
+        //     }
+        //     else{
+        //         document.write('Your media ' + media + ' APPROVED with the minimum to pass')
+        //     }
+        // }
+
+
+
+
+
+        //008 Peça para o Cliente escolher entre quatro pedidos sendo eles
+
+        // Pizza = R$12,00
+        // Pão de Queijo = R$ 4,00
+        // Macarrão R$ 16,00
+        // Pastel = R$ 4,50
+
+        // Após a escolha pergunte quanto o cliente estará dando de valor ao caixa.
+
+        // Ao final do programa calcule se o Cliente precisa de troco ou não e informe o valor do troco caso necesário.
+
+        // let choice = prompt('Choose one option \n 1- Pizza = R$12,00 \n 2- Pão de Queijo = R$ 4,00 \n 3- Macarrão R$ 16,00 \n 4- Pastel = R$ 4,50: ')
+
+        // let pay = parseFloat(prompt('How much do you given? '))
+        
+        // let change = prompt('Do you need change? Y/N').toUpperCase()
+
+        // if(change == 'Y'){
+
+        //     if(choice == 1){
+        //         let changeToGive = pay - 12
+        //         document.write('The change: ' + changeToGive)
+        //     }
+        //     else if (choice == 2){
+        //         let changeToGive = pay - 4
+        //         document.write('The change: ' + changeToGive)
+        //     }
+        //     else if (choice == 3){
+        //         let changeToGive = pay - 16
+        //         document.write('The change: ' + changeToGive)
+        //     }
+        //     else if (choice == 4){
+        //         let changeToGive = pay - 4.5
+        //         document.write('The change: ' + changeToGive)
+        //     }
+        //     else{
+        //         document.write('That product doesnt exist')
+        //     }
+
+        // }
+        
+
+
+
+
+        //009 Escreva um programa para ler 3 valores inteiros (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
+
+        let firstNumber = prompt('FirstNumber: ')
+        let secondNumber = prompt('secondNumber: ')
+        
+        if(firstNumber == secondNumber){
+            secondNumber = null
+        }
+
+        let thirdNumber = prompt('thirdNumber: ')
+
+        if(firstNumber == thirdNumber || secondNumber == thirdNumber){
+            thirdNumber = null
+        }
+
+
+
+        if(firstNumber > secondNumber && firstNumber > thirdNumber){
+            if(secondNumber > thirdNumber){
+
+                document.write(thirdNumber, ' ', secondNumber, ' ', firstNumber)
+            }
+            else{
+                document.write(secondNumber, ' ', thirdNumber, ' ', firstNumber)
+            }    
+        }
+        else if(secondNumber > firstNumber && secondNumber > thirdNumber){
+
+            if(firstNumber > thirdNumber){
+
+                document.write(thirdNumber, ' ', firstNumber, ' ', secondNumber)
+            }
+            else{
+                document.write( firstNumber, ' ', thirdNumber, ' ', secondNumber)
+            }    
+
+        }
+        else{
+            if(firstNumber > secondNumber){
+
+                document.write( secondNumber, ' ', firstNumber, ' ', thirdNumber)
+            }
+            else{
+                document.write(firstNumber, ' ', secondNumber, ' ',  thirdNumber)
+            }    
+        }
+
+
+
+
+
+        //010 Faça um programa que peça o sexo da pessoa F ou M e a sua altura.E mostre o peso ideal da pessoa.
+
+        // Calculo:  Masculino: (72.7 * altura) - 58
+        // Calculo:  Feminino: (62.1 * altura) - 44.7
+        
+        // let gender = prompt('Whats your gender? F/M: ').toUpperCase()
+
+        // let  height = prompt('Whats your height in cm: ')
+
+        // if(gender == 'M'){
+        //     weightBest = (height * 0.75) - 62.5
+        // }
+        // else if(gender == 'F'){
+        //     weightBest = (height * 0.675) - 56
+        // }
+
+        // document.write('You perfct weight is ' + weightBest)
+        
+
+
+
+
+
+        //011 Faça um programa aonde você precisa pedir 1 numero ao usuario escreva na tela 5 numeros abaixo dele 5 numeros acima dele e o numero dele vezes 2
+
+        // let number = prompt('Choose your number: ')
+
+        // document.write( number, '\n', ' Down numbers ',number - 1,'\n', number - 2, '\n',  number - 3, '\n',  number - 4, '\n',  number - 5, ' Up numbers ', number + 1,'\n', number + 2, '\n',  number + 3, '\n',  number + 4, '\n',  number + 5, '\n', 'at least but not less important ', number *2)
+        
+
+
+
+
+        //012 `Faça um programa que peça ao usuario o seu usuario o salario dele.`
+
+
+        // salários até R$ 280,00: aumento de 20%
+
+
+        // salários entre R$ 280,00 e R$ 700 00 : aumento de 15%
+
+        // salários maior que  R$ 700,00 : aumento de 10%
+
+        // -  salário antes do reajuste;
+        // -  percentual de aumento aplicado;
+        // -  valor do aumento;
+        // -  novo salário, após o aumento.
+
+        // let userSalary = parseFloat(prompt('Whats your salary: '))
+        // let porcentIncrease = null
+
+        // let valueIncrease = userSalary
+        
+        // if(userSalary <= 280){
+        //     porcentIncrease = '20%'
+        //     salaryIncrease = userSalary * 0.2
+            
+        // }
+        // else if(userSalary < 700){
+        //     porcentIncrease = '15%'
+        //     salaryIncrease = userSalary * 0.15
+            
+        // }
+        // else{
+        //     porcentIncrease = '10%'
+        //     salaryIncrease = userSalary * 0.1
+            
+        // }
+
+        // newSalary = salaryIncrease + userSalary
+
+        // valueIncrease = valueIncrease - newSalary 
+
+        // document.write('User Salary -> ', userSalary, '\n', 'Porcent increase to salary -> ', porcentIncrease, '\n', 'Value increase -> ', valueIncrease, '\n', 'New Salary -> ', newSalary)
+        
+
+
+
+
+
+        //013 Faça um script para calcular a Hipotenusa de um triangulo retangulo, onde o usuario informa os catetos e o programa calcula a hipotenusa.
+
+        // let fisrtCateto = parseFloat(prompt('Insert your first Cateto: '))
+        // let secondCateto = parseFloat(prompt('Insert your second Cateto: '))
+        
+        // let hipotenusa = fisrtCateto * fisrtCateto + secondCateto * secondCateto
+
+        // solution = Math.sqrt(hipotenusa)
+
+        // document.write(solution)
+
+
+
+
+
+        //014 Faça um script para calcular quanto será gasto em uma viagem, onde o usuario informa a distancia em KM e o consumo do carro em KM/L e o programa calcula o valor da viagem.
+        
+        // let userKm = parseFloat(prompt('How many km you gonna road: '))
+
+        // let gasSpend = parseFloat(prompt('How much you car spend per Km: '))
+
+        // let totalSpend = userKm / gasSpend
+
+        // document.write('Your L spend: ', totalSpend)
+        
+
+
+
+
+
+        //015 Faça um script para que o usuário informe 3 numeros e o programa mostre os pares de numeros.
+
+        // let firstNumber = prompt('FirstNumber: ')
+        // let secondNumber = prompt('secondNumber: ')   
+        // let thirdNumber = prompt('thirdNumber: ')  
+        // document.write(firstNumber, '\n', secondNumber, '\n', thirdNumber, '-> ')
+        // if(firstNumber == secondNumber){
+        //     document.write(firstNumber, '\n', secondNumber)
+        // }
+        // else if(firstNumber == thirdNumber){
+        //     document.write(firstNumber, '\n', thirdNumber)
+        // }
+        // else if(secondNumber == thirdNumber){
+        //     document.write(secondNumber, '\n', thirdNumber)
+        // }
+
+
+
+        //016 Faça um script, onde você informa o numero de dias trabalhados no mês, quantas horas trabalha por dia, e quanto ganha por hora, e o programa calcula o salario bruto. Porém se o valor de horas somado passar do valor de 8 horas por dia, o calculo do salario deverá ter um acrecimo de 10% no valor do salario bruto.
+
+        // let workDay = parseInt(prompt('How many days did you work in a month: '))
+
+        // let workHour = parseInt(prompt('How many hours did you work per day: '))
+        
+        // let gainHour = parseInt(prompt('How much did you gain per hour you worked: '))
+
+
+        // if(workHour <= 8){
+        //     salary =  (workDay * workHour) * gainHour
+        // }
+        // else{
+        //     salary = (workDay * workHour) * gainHour
+        //     plusSalary = salary
+        //     plusSalary *= .1
+        //     salary = salary+ plusSalary
+        // }
+
+        // document.write('Your salary this month: ', salary)
+        
+
+
+
+
+
+        //018 Escreva um script que verifica se uma string é vazia ou não e exibe a mensagem correspondente. 
+
+        // let userText = prompt('String: ').toUpperCase()
+        
+        // let message = 'CARLOS'
+
+        // if(userText === ''){
+        //     document.write('User text is empty')
+        // }
+        // else if(message != userText){
+        //     document.write('User text is diffent from CARLOS')
+        // }
+        // // else{
+        // //     document.write('Now is everything good')
+        // // }
+
+
+
+
+
+
+        // //019 Escreva um script que verifica se um número é negativo, positivo ou igual a zero e exibe a mensagem correspondente.
+
+        // // let userNumber = parseFloat(prompt('Type a number to check if it is Positive, Negative or equal a zero. \n Number: '))
+        
+        // // let textToUser = ''
+
+        // // if(userNumber == 0){
+        // //     textToUser = ' is equal to zero'
+        // // }
+        // // else if(userNumber > 0){
+        // //         textToUser = ' is positive'
+        // // }
+        // // else{
+        // //     textToUser = ' is negative'
+        // // }
+        
+        // // document.write(userNumber, textToUser)
+
+
+
+
+
+        // //020 Escreva um script que verifica se uma variável é do tipo booleano e exibe a mensagem correspondente.
+
+        // // let trueNumber = true
+        
+        // // if(typeof trueNumber === "boolean"){
+        // //     document.write('its boolean True')
+        // // }
+        
+
+
+
+
+
+        // //021 Escreva um script que verifica se um número é divisível por 3 ou não e exibe a mensagem correspondente.
+        
+        //  let firstNumber = 3
+        //  let secondNumber = 12
+        //  let thirdNumber = 10
+        
+        //  let firstText =''
+        //  let secondText =''
+
+
+        //  if(secondNumber % firstNumber == 0){
+        //      firstText = `${secondNumber}, Is divisible for, ${firstNumber}. \n`
+        //  }else{
+        //      firstText = 'not working'
+        //  }
+
+        //  if(firstNumber % thirdNumber == 0){
+        //      secondText = `\n ${firstNumber} Is divisible for, ${thirdNumber}`
+        //  }else{
+        //      secondText = `${firstNumber} Is not divisible for, ${thirdNumber}`
+        //  }
+        //  document.write(firstText, secondText)
+       
+
+
+
+
+        // //022  Escreva um script que verifica se uma string contém uma determinada parte de um texto de sua escolha  e exibe a mensagem correspondente.
+
+        // const myText = 'Show your really power, Im waiting for you man.'
+
+        // const firstWord = 'really'
+        // const secondWord = 'cacoa'
+        // const thirdWord = 'man'
+        
+        // let firstConfirmation = ''
+        // let secondConfirmation = ''
+        // let thirdConfirmation = ''
+
+        // if(firstWord.includes('Show your really power, Im waiting for you man.')){
+        //     firstConfirmation = `${firstWord} it is on our text`
+        // }
+        // if(secondWord.indexOf('man') != -1){
+        //     secondConfirmation = `${secondWord} it is not on our text`
+        // }else{
+        //     secondConfirmation = `${secondWord} it is not on our text`
+        // }
+        // if(thirdWord.indexOf('cacoa') != -1){
+        //     thirdConfirmation = `${firstWord} it is on our text`
+        // }
+        
+        // document.write(firstConfirmation, '\n', secondConfirmation, '\n',  thirdConfirmation)
+        
+
+
+
+
+        // //023 Escreva um script que verifica se uma string tem mais de 10 caracteres e exibe a mensagem correspondente
+
+        // let firstText = 'alejandroSilveira'
+        // let secondText = 'alejandro'
+
+        // if(firstText.length > 10){
+        //     document.write(firstText,' Bigger than 10 charact. ')
+        // }
+        // if(secondText.length < 10){
+        //     document.write(secondText, ' Smaller than 10 charact.')
+        // }
+
+
+        // //024 Escreva um script que verifica se uma string é igual a "javascript" ou "JavaScript" e exibe a mensagem correspondente.
+
+        //  const textJ= 'JavaScript'
+
+        //  if(textJ ==  'javascript'){
+        //      document.write('javascript Equal')
+        //  }
+        //  else if(textJ ==  'JavaScript'){
+        //      document.write('JavaScript Equal')
+        //  }
+
+
+
+        // //025 Escreva um código que verifica se um número é primo ou não e exibe a mensagem correspondente
+        //  const isPrime = (num) => {
+        //  for (let i = 2; i < num; i++)
+        //      if (num % i === 0) {
+        //      return false;
+        //      }
+        //  return num > 1;
+        //  };    
+        
+        
+        
+        // //027 Escreva um código que verifica se uma string é um palíndromo ou não e exibe a mensagem correspondente.
+        
+        //  let str = 'subinoonibus'
+        
+        //  if(str == str.split('').reverse().join('')){
+        //      document.write('Thats ok')
+        //  }
+        //  else{
+        //      document.write('thats bad')
+        //  }
+       
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
