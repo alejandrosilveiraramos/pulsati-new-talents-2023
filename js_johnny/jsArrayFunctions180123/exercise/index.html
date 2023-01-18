@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise02</title>
+</head>
+<body>
+    <script>
+        //030 Utilize um laço "for" para criar uma pirâmide de números, onde cada linha tem um número a mais do que a linha anterior.
+        // let number = 0
+
+        // for (let i = 1; i <= 10; i++) {
+        // number++
+        
+        // console.log(number.toString().repeat(i));
+            
+        // }
+
+
+
+
+        // //031 Utilize um laço "for" para gerar uma tabela de tabuada de um número específico.
+        // let number = Number(prompt('Number to X Multiple table: '))
+    
+        // for(let mult = 0; mult < 11; mult++){
+        //     let result = number * mult
+        //     document.write(number, ' X ', mult, ' = ', ' ',result, '  | ')
+        // }
+
+
+
+
+
+        // //032 Utilize um laço "for" para contar quantos dígitos tem um número inteiro e armazenar o resultado em uma variável chamada "contagem".
+        
+        // let number = 3333
+        
+        // let strNumber = number.toString().length
+        // let countingNumber = 0
+        // for(let counting = 0; counting != strNumber; counting++){
+        //     console.log(counting)
+        //     countingNumber++
+        // }
+        // document.write(countingNumber)
+
+
+
+
+
+        //33. Utilize um laço "for" para gerar uma contagem regressiva de 10 até 0 e imprimir cada número no console.
+
+        // for(let i = 10; i > -1; i--){
+        //     console.log(i)
+        // }
+
+
+
+
+
+        //034 Utilize um laço "for" para percorrer uma string e trocar todas as letras "a" por "x" e imprimir a string modificada.
+        
+        // let world = 'abacate'
+        // let strWorld = world.toString().length
+
+        // for(let i = 0; i != strWorld; i++){
+        //     console.log(world.replace('a', 'x'))
+        //     world = world.replace('a', 'x')
+        // }
+        
+        //035 Escreva um programa que calcule a média de uma lista de números com quantidade definida pelo usuário
+        
+        // let userAns = 'yes'
+
+        // let numberList = []
+
+        // while(userAns != 'no'){
+
+        //     let number = parseInt(prompt('Number: '))
+
+        //     numberList.push(number)
+
+        //     userAns = prompt('Do you wanna continue?  ')
+        // }
+
+        // let sum = 0
+        // let result = 0
+
+        // for (const element of numberList) {
+        //     sum = sum + element
+
+            
+        //     console.log(element, sum);
+
+        //     result = sum/numberList.length
+
+        //     document.write('Result ', result)
+        
+        // }
+
+
+
+
+
+        //036 Escreva um programa que ordene uma lista de números em ordem crescente.
+
+        // function sortList(a, b){
+        //     return (a - b)
+        // }
+
+        // const numberList = [2, 4, 8, 65, 1, 87]
+
+        // numberList.sort(sortList)
+
+        // console.log(numberList)
+        
+
+
+
+
+        //037 Escreva um programa que verifique se todos os números são ou pares ou impares de um array.
+        
+        // const numberList = [2, 4, 8, 65, 1, 87]
+        // const evenList =[]
+        // const oddList =[]
+
+        // for(const element of numberList){
+        //     if(element % 2 == 0){
+        //         evenList.push(element)
+        //     }
+        //     else{
+        //         oddList.push(element)
+        //     }
+        // }
+        
+        // for(const element of evenList){
+        //     console.log('Even number ', element)
+        // }
+        // console.log('Even List ', evenList)
+
+        // for(const element of oddList){
+        //     console.log('Odd number ', element)
+        // }
+        // console.log('Odd List ', oddList)
+        
+
+
+
+
+        //038 Escreva um programa que calcule o fatorial de um número escolhido pelo usuário.
+
+        // function Factorial(n) {
+        //     var ans=1;
+             
+        //     for (var i = 2; i <= n; i++)
+        //         ans = ans * i;
+        //     return ans;
+        // }
+        
+        // console.log(Factorial(2))
+
+
+
+
+
+        //039 Escreva um programa que encontre o maior número em uma lista
+        
+        // const numberList = [2, 4, 8, 65, 1, 87]
+
+        // console.log(Math.max.apply(null, numberList))
+        
+
+
+
+
+        // //040 Escreva um programa que verifique se um número é capicua
+       
+        // let str = '88'
+        
+        // if(str == str.split('').reverse().join('')){
+        //     document.write('Thats ok')
+        // }
+        // else{
+        //     document.write('thats bad')
+        // }
+
+
+
+
+
+        //41. Escreva um programa que verifique se um número é divisível por outro
+
+        // function DivNumber(firstNumber, secondNumber){
+        //     if(firstNumber % secondNumber == 0){
+        //         return document.write('Thats good')
+        //     }else{
+        //         return document.write('Absoluty not good')
+        //     }
+        // }
+
+        // DivNumber(2, 3)
+
+
+
+
+
+        //042 Escreva um programa que encontre o menor número em uma lista
+
+        // function lowerNumber(numberList){
+        //     return Math.min.apply(null, numberList)
+
+        // }
+
+        // const numbersTest = [1, 10, 3, 34, 39, 29, 100, 2]
+
+        // console.log(lowerNumber(numbersTest))
+
+
+
+
+
+
+        //043 Escreva um programa que calcule a soma dos números impares de uma lista
+
+        // function oddNumber(listNumber){
+        //     let sum = 0
+        //     for(const element of listNumber){
+        //         if(element % 2 != 0){
+        //             sum = sum + element
+        //             console.log(element, ' ', sum)
+        //         }
+        //     }
+        //     return document.write('The sum of odd Numbers: ', sum)
+        // }
+
+        // const oddList = [3, 1, 2, 6, 8, 9]
+        // oddNumber(oddList)
+        
+
+
+
+
+
+        //044 Escreva um programa que some o resto da divisão de dois números inteiros
+
+        // function sumRest(firstNumber, secondNumber){
+        //     let restNumber = firstNumber % secondNumber
+        //     let resultNumber = firstNumber + secondNumber + restNumber
+
+        //     console.log('restNumber ', restNumber)
+        //     return resultNumber
+        // }
+
+        // console.log(sumRest(2, 234))
+
+
+
+
+
+        //045 Escreva um programa que verifique quantos números são positivos e quantos são negativos em um array.
+
+        // function howMuch(numberList){
+
+        //     let positiveNumber = 0
+        //     let negativeNumber = 0
+
+        //     for(const element of numberList){
+        //         if(element % 2 != 0){
+        //             positiveNumber++
+        //         }
+        //         else{
+        //             negativeNumber++
+        //         }
+        //     }
+
+        //     return document.write('Positive numbers: ', positiveNumber, ' Negative numbers ', negativeNumber )
+        // }
+
+        // const numberList = [1, -3, 5, 6, 7, -10]
+
+        // howMuch(numberList)
+
+
+
+
+
+        //46. Escreva um programa que calcule o logaritmo de um número.
+        
+        // function getBaseLog(firstNumber, secondNumber){ 
+        //     return Math.log(firstNumber) / Math.log(secondNumber)
+        // }
+
+        // console.log((getBaseLog(45, 45)))
+
+        
+
+
+
+        //047 Escreva um programa que calcule a raiz quadrada de um número
+
+        // function squareRoot(number){ 
+        //     return Math.sqrt(number)
+        // }
+
+        // console.log(squareRoot(16))
+
+
+
+
+        //048 Escreva um programa que calcule a formula de baskara de números definidos pelo usuário
+
+        // let valueA = prompt("Put the correct value A:");
+        // let valueB = prompt("Put the correct value B:");
+        // let valueC = prompt("Put the correct value C:");
+        
+        // function baskh(valueA, valueB, valueC){
+            
+        //     let coefficient1;
+        //     let coefficient2;
+
+        //     let delta = (valueB * valueB) - 4 * valueA * valueC;
+
+        //     document.write("Value of Delta => " + delta + "<br/><br/>");
+
+        //     if(delta < 0){
+        //     document.write("To Delta negative, dont existe a real squart root  <br/>");  
+        //     } else{
+            
+        //     document.write("To Delta positive, different square root: <br/>");  
+            
+        //     coefficient1 = (-valueB + Math.sqrt(delta)) / (2 * valueA);
+        //     coefficient2 = (-valueB - Math.sqrt(delta)) / (2 * valueA);
+            
+        //     document.write("x' = " + coefficient1 + "<br/>");
+        //     document.write("x'' = " + coefficient2 + "<br/>");
+        //     }
+        // }
+
+        // console.log(baskh(valueA, valueB, valueC))
+
+
+        //049 Escreva um programa que calcule a potência de um número.
+
+        // function power(number, powNumber){
+
+        //     return Math.pow(number, powNumber)
+        // }
+
+        // console.log(power(2, 20))
+
+
+
+
+
+        //050 Escreva um programa que gere um numero aleatório e some até que essa soma dos números passe de 200
+
+        // function sumRandom(){
+            
+        //     let randomNumber = 10
+        //     let sum = 0
+
+        //     for(i = 0; sum < 200; i ++){
+
+        //         randomNumber = Math.random()
+        //         sum = sum + randomNumber
+
+        //     }
+
+        //     console.log(sum)
+ 
+        // }
+
+        // sumRandom()
+
+
+
+
+        //Crie um programa onde o usuário informa 2 numeros e você mostra as operações de soma, subtração, multiplicação e divisão
+
+        // OBS: Criar uma Função unica, que recebe qual a operação via parametro
+        // e assim mostrar na tela.
+        
+        // function calc(firstNumber, secondNumber){
+
+        //     sum = firstNumber + secondNumber
+        //     sub = firstNumber - secondNumber
+        //     div = firstNumber / secondNumber
+        //     mult = firstNumber * secondNumber
+
+        //     return document.write('sum', sum, '<br></br>', 'sub', sub, '<br></br>', 'div', div, '<br></br>', 'mult', mult, '<br></br>')
+        // }
+
+        // calc(2, 10)
+
+
+
+
+
+        // Crie um programa onde o usuario informa uma quantidade indeterminada de notas e você (COM UMA FUNÇÃO) mostra a média das notas
+        
+        function userGradeList(){
+            let userAns = true
+
+            let numberList = []
+
+            while(userAns != false){
+
+                let number = parseInt(prompt('Number: '))
+
+                numberList.push(number)
+
+                userAns = confirm('Do you wanna continue?  ') == true
+            }
+
+            return numberList
+        }
+
+        function listMedia(numberList){
+            let sum = 0
+            let result = 0
+
+            for (const element of numberList) {
+                sum = sum + element
+
+                
+                console.log(element, sum);
+
+                result = sum/numberList.length
+
+                return document.write('Result ', result)
+
+            }
+
+        }
+
+        let gradeList = userGradeList()
+
+        listMedia(gradeList)
+
+       
+
+
+    </script>
+</body>
+</html>
