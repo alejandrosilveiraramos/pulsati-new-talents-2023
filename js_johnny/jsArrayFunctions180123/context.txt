@@ -1,0 +1,16 @@
+Johnny Classes 18/01/2023
+
+Switch case -> 
+		Im gonna start use this for a menu and now we can use function. My plan is create a menu 
+	and in this menu I can choose witch exercise Im gonna run.
+
+While -> 
+		for when I dont know how many times my script should running ( Doesnt matter if your 
+
+Do While -> 
+		for when I know how many times my script should running (An appointment, Johnny said this one 
+	is for when your code have to run at least one time that line.
+
+Array [List of anything]
+	
+	[0, 1, 2 , 3] We have a 4 position but the enumeration is kind diffent in Arrays.
