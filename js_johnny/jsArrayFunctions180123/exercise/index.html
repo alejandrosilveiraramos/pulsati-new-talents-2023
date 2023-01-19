@@ -397,46 +397,79 @@
 
 
 
-        // Crie um programa onde o usuario informa uma quantidade indeterminada de notas e você (COM UMA FUNÇÃO) mostra a média das notas
+        // // Crie um programa onde o usuario informa uma quantidade indeterminada de notas e você (COM UMA FUNÇÃO) mostra a média das notas
         
-        function userGradeList(){
-            let userAns = true
+        // function userGradeList(){
+        //     let userAns = true
 
-            let numberList = []
+        //     let numberList = []
 
-            while(userAns != false){
+        //     while(userAns != false){
 
-                let number = parseInt(prompt('Number: '))
+        //         let number = parseInt(prompt('Number: '))
 
-                numberList.push(number)
+        //         numberList.push(number)
 
-                userAns = confirm('Do you wanna continue?  ') == true
-            }
+        //         userAns = confirm('Do you wanna continue?  ') == true
+        //     }
 
-            return numberList
-        }
+        //     return numberList
+        // }
 
-        function listMedia(numberList){
-            let sum = 0
-            let result = 0
+        // function listMedia(numberList){
+        //     let sum = 0
+        //     let result = 0
 
-            for (const element of numberList) {
-                sum = sum + element
+        //     for (const element of numberList) {
+        //         sum = sum + element
 
                 
-                console.log(element, sum);
+        //         console.log(element, sum);
 
-                result = sum/numberList.length
+        //         result = sum/numberList.length
 
-                return document.write('Result ', result)
+        //         return document.write('Result ', result)
 
+        //     }
+
+        // }
+
+        // let gradeList = userGradeList()
+
+        // listMedia(gradeList)
+
+
+
+
+        //Peça ao usuário para digitar várias idades. Exiba quantas pessoas são maior de idade (18 anos) e quantas são menores. COM UMA FUNÇÃO QUE VERIFICA E RETORNA SE É MAIOR OU MENOR DE IDADE
+        
+        let listAge = []
+
+        function inputUser()
+
+            while(userAns != false){
+                let userAge = parseInt(prompt('Age to add: '))
+
+                listAge.push(userAge)
+
+                let userDecision = prompt('Do you wanna add more ages? ')
+
+                if(userDecision == 'n'){
+                    userAns = false
+                }
+            
+            return document.write('List done ', listAge)
             }
 
-        }
+            
 
-        let gradeList = userGradeList()
+        inputUser()
 
-        listMedia(gradeList)
+
+        
+       
+
+
 
        
 

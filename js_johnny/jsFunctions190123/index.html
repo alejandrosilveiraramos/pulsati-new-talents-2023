@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        //051 Escreva um programa que calcule a soma dos n numeros porém somente dos numeros que nao forem inteiros     
+
+        // function notInteger(listNumber){
+            
+        //     let sum = 0
+
+        //     for(const element of listNumber){
+        //         if(Number.isInteger(element) != true){
+        //             let mommentNumber = element
+
+        //             sum = sum + mommentNumber
+
+        //             console.log(`Is not a integer [APPROVED] ${element}`)
+        //         }
+        //         else{
+        //             console.log(`Is a integer [DISAPPROVED] ${element}`)
+        //         }
+        //     }
+        //     return console.log(sum)
+        // }
+        
+        // let userContinue = ''
+
+        // let numberList = []
+
+        // let userNumber = 0
+
+        
+        // do {
+        //     userNumber = Number(prompt('Type your number: '))
+
+        //     const sendNumber = numberList.push(userNumber)
+
+        //     userContinue = prompt('Y/N: ')
+        // }
+        // while(userContinue != 'n'){
+        //     console.log(numberList)
+        // }
+
+        // notInteger(numberList)
+            
+
+
+
+
+        // After a dumb momment mind here it is a model of a loop list conform user expects.
+        // let user = ''
+        // listNumber = []
+        // let userNumber = 0
+
+        // do {
+        //     userNumber = parseInt(prompt('Type a number: '))
+        //     const numberTest = listNumber.push(userNumber)
+
+        //     user = prompt('y/n: ')
+            
+        // }
+        // while (user != 'n');
+
+        // document.write(listNumber)
+
+        // //052 Escreva um programa que verifique se um número é divisível por outro
+
+        // function isItDivisible(fisrtNumber, secondNumber){
+            
+        //     if(fisrtNumber % secondNumber == 0 ){
+        //         return document.write(`This numbers are divisible ${fisrtNumber}, ${secondNumber} <br></br>`)
+        //     }else{
+        //         return document.write(`This numbers are NOT divisible ${fisrtNumber} / ${secondNumber} <br></br>`)
+        //      }
+        // }
+
+        // isItDivisible(1, 2)
+
+        // isItDivisible(3, 2)
+
+        // isItDivisible(24, 2)
+
+        // isItDivisible(2500, 8)
+
+        // isItDivisible(13, 2312)
+        
+
+        //053 Escreva um programa onde você pessa N numeros e depois mostre qual o menor numero que estiver entre a posição 5 e 10
+
+
+        // function positionNumber(numberList){
+            
+
+        //     lowestNumber = Math.min(...numberList)
+            
+
+        //     return lowestNumber
+
+        // }
+
+        // const numberList = [1, 2, 8, 23, 654, 4, 66, 324, 3, 7, 32, 123, 20]
+
+        // console.log(positionNumber(numberList.slice(5, 10)))
+
+
+        //054 Escreva um programa que calcule o resto da divisão de dois números não inteiros
+
+        // function restOfDivisionNotIntegerNumber(fisrtNumber, secondNumber){
+        //     result = fisrtNumber % secondNumber
+
+        //     return result
+        // }
+
+        // console.log(restOfDivisionNotIntegerNumber(2.3, 3.3))
+
+
+        //055  Escreva um programa que calcule a raiz quadrada de um número
+
+        // function squareRoot(number){
+
+        //     let determ = 0
+
+        //     for(element = 1; (element * element) != number; element++ ){
+
+        //         let elementResult = element * element
+
+        //         if(elementResult === number){
+        //             determ = 1
+        //             return element
+        //         }
+        //     }
+        // }
+
+        // console.log(squareRoot(64))
+
+        // console.log(Math.sqrt(64))
+        
+        // // 54. Escreva um programa que calcule a potência de um número.
+
+        // function powNumber(number){
+
+        //     for(i = 0; i != number; i++){
+        //         let getPow = number * number
+
+        //         powResult = getPow * number
+        //     }
+
+        //     return powResult
+        // }
+
+        // console.log(powNumber(8))
+
+        //055 Escreva um programa que verifique se um número é triangular.
+
+
+        //056 Escreva um programa que encontre o número mais frequente em uma lista.
+        
+        // const numberList = [2, 2, 3, 4, 10, 20, 43, 2, 32, 1, 22, 2, 20, 20]
+
+        // function mostNumber(numberList){
+             
+        //     for(const element of numberList){
+        //         console.log(element)
+                
+        //     }
+        // }
+
+        // mostNumber(numberList)
+
+        //
+
+//         var input = "monk, konm, bbc, cbb, dell, ledl";
+//         var words = input.split(", ");
+
+//         for (var i = 0; i < words.length; i++) {
+
+//         var word = words[i];
+//         var alphabetical = word.split("").sort().join("");
+
+//          for (var j = 0; j < words.length; j++) {
+
+//          if (i === j) {
+//             continue;
+//         }
+
+//         var other = words[j];
+
+//         if (alphabetical === other.split("").sort().join("")) {
+//             console.log(word + " - " + other + " (" + i + ", " + j + ")");
+//     }
+//   }
+// }
+
+
+    //58. Escreva um programa que calcule o número de dias entre duas datas.
+    // To set two dates to two variables
+        // var date1 = new Date("06/30/2019");
+        // var date2 = new Date("10/30/2019");
+        
+        // // To calculate the time difference of two dates
+        // var Difference_In_Time = date2.getTime() - date1.getTime();
+        
+        // // To calculate the no. of days between two dates
+        // var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+        
+        // //To display the final no. of days (result)
+        // console.log("Total number of days between dates  <br>"
+        //         + date1 + "<br> and <br>" 
+        //         + date2 + " is: <br> " 
+        //         + Difference_In_Days);
+
+        //059 Escreva um programa que calcule o quociente e o resto de uma divisão inteira.
+
+        function quocientRestDivision(firstNumber, secondNumber){
+
+            quocient = firstNumber / secondNumber
+
+            restDivision = firstNumber % secondNumber
+
+            return [quocient, restDivision]
+
+        }
+
+        console.log(quocientRestDivision(10, 3))
+
+    </script>
+</body>
+
+</html>
