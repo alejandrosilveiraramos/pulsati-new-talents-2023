@@ -186,7 +186,7 @@
 //         var word = words[i];
 //         var alphabetical = word.split("").sort().join("");
 
-//          for (var j = 0; j < words.length; j++) {
+//          for (var j = 0; j <br words.length; j++) {
 
 //          if (i === j) {
 //             continue;
@@ -218,20 +218,38 @@
         //         + date2 + " is: <br> " 
         //         + Difference_In_Days);
 
-        //059 Escreva um programa que calcule o quociente e o resto de uma divisão inteira.
+        // //059 Escreva um programa que calcule o quociente e o resto de uma divisão inteira.
 
-        function quocientRestDivision(firstNumber, secondNumber){
+        // function quocientRestDivision(firstNumber, secondNumber){
 
-            quocient = firstNumber / secondNumber
+        //     quocient = firstNumber / secondNumber
 
-            restDivision = firstNumber % secondNumber
+        //     restDivision = firstNumber % secondNumber
 
-            return [quocient, restDivision]
+        //     return [quocient, restDivision]
 
+        // }
+
+        // console.log(quocientRestDivision(10, 3))
+
+        //60. Escreva um programa que calcule o valor absoluto de um número.
+        
+        let firstNumber = (Math.random() * 5) - 100
+
+           // function absolut number:
+           //   numberResult = Math.abs(number)
+        function absolut(number){
+            if(number < 0){
+                number = number * -1
+            }
+            numberResult = Math.floor(number)
+
+
+
+            return numberResult
         }
 
-        console.log(quocientRestDivision(10, 3))
-
+        document.write(absolut(firstNumber), '<br></br>' ,  ' First number: ', firstNumber)
     </script>
 </body>
 
