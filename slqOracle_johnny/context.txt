@@ -1,0 +1,8 @@
+Johnny starting, teaching about SQL.
+He said we are specialised in ORACLE SYSTEM from Philips. 
+
+(Remember the founders of company mostly is from philips)
+
+
+SQL its a descritive language, so different from Javascrpit has a hole logic to use the syntax.
+
