@@ -28,7 +28,7 @@ Author.init(
     },
     {
          sequelize: getConfigDb(),
-         modelName: "library_alejandro",
+         modelName: 'author_alejandro',
          timestamps: false,   
     }
 );

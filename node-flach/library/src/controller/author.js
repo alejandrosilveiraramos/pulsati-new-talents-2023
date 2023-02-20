@@ -10,7 +10,7 @@ exports.createAuthor = async (req, res) => {
 
     } = req.body
 
-    const author = new  Author();
+    const author = new Author();
 
     author.id = id;
     author.first_name = first_name;
