@@ -27,7 +27,7 @@ exports.readAllAuthor = async (req, res) => {
 
 };
 
-//read Author 
+//read Author by id
 exports.readAuthor = async (req, res) => {
     const id = req.params.id;
 
@@ -36,7 +36,7 @@ exports.readAuthor = async (req, res) => {
     res.json(author);
 };
 
-// update Author
+// update Authorby id
 exports.updateAuthor = async (req, res) => {
     const id = req.params.id;
 
