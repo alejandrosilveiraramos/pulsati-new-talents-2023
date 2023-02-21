@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
-const { getConfigDb } = require('../config');
+const { getConfigDb } = require('../config/config');
 
 
 // Author class model

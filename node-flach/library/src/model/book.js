@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
-const { getConfigDb } = require('../config');
+const { getConfigDb } = require('../config/config');
 
 class Book extends Model{}
 
@@ -28,4 +28,6 @@ Book.init({
     timestamps: false,
 }
 );
+
+exports.Book = Book;
 

@@ -1,16 +1,14 @@
-const PublisherBook = require('../model/publisher').PublisherBook;
+const Publisher = require('../model/publisher').Publisher;
 
 //create Publisher
 exports.createPublisher = async (req, res) => {
     const {
-        id,
         publisher_name,
         cnpj
     } = req.body
 
-    const publisher = new PublisherBook();
+    const publisher = new Publisher();
 
-    publisher.id = id;
     publisher.publisher_name = publisher_name;
     publisher.cnpj = cnpj;
     await publisher.save();
@@ -20,7 +18,7 @@ exports.createPublisher = async (req, res) => {
 
 //read all Publisher
 exports.readAllPublisher = async (req, res) => {
-    PublisherBook.findAll().then(result => res.json(result))
+    Publisher.findAll().then(result => res.json(result))
 
 };
 
@@ -28,7 +26,7 @@ exports.readAllPublisher = async (req, res) => {
 exports.readPublisher = async (req, res) => {
     const id = req.params.id;
 
-    const publisher = await PublisherBook.findByPk(id);
+    const publisher = await Publisher.findByPk(id);
 
     res.json(publisher);
 };
@@ -37,7 +35,7 @@ exports.readPublisher = async (req, res) => {
 exports.updatePublisher = async (req, res) => {
     const id = req.params.id;
 
-    const publisher = await PublisherBook.findByPk(id);
+    const publisher = await Publisher.findByPk(id);
 
     const{
         publisher_name,
@@ -55,7 +53,7 @@ exports.updatePublisher = async (req, res) => {
 exports.deletePublisher = async (req, res) => {
     const id = req.params.id;
 
-    const publihser = await PublisherBook.findByPk(id);
+    const publihser = await Publisher.findByPk(id);
     await publihser.destroy();
 
     res.json({Data: 'Publisher Delete it was a Successful'})

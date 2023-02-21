@@ -3,7 +3,6 @@ const Author = require('../model/author').Author;
 //create Author
 exports.createAuthor = async (req, res) => {
     const {
-        id,
         first_name,
         last_name,
         birthday
@@ -12,7 +11,6 @@ exports.createAuthor = async (req, res) => {
 
     const author = new Author();
 
-    author.id = id;
     author.first_name = first_name;
     author.last_name = last_name;
     author.birthday = birthday;

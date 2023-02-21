@@ -1,10 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
-const { getConfigDb } = require('../config');
+const { getConfigDb } = require('../config/config');
 
 //Publisher class model
-class PublisherBook extends Model{}
+class Publisher extends Model{}
 
-PublisherBook.init(
+Publisher.init(
     {
         id: {
             type: DataTypes.NUMBER,
@@ -28,6 +28,6 @@ PublisherBook.init(
 
 );
 
-exports.PublisherBook = PublisherBook;
+exports.Publisher = Publisher;
 
 
