@@ -1,0 +1,17 @@
+/* 
+
+EX4: Crie um conjunto de propriedades CSS para fazer com que o texto de um paragrafo tenha uma sombra de texto.
+
+*/
+body{
+    text-align: center;
+}
+div{
+    margin-top: 100px;
+    display: inline-block;
+    max-width: 200px;
+    max-height: 200px;
+}
+p{
+    box-shadow: 2px 1px 2px 1px #000;
+}

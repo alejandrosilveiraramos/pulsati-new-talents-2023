@@ -1,0 +1,64 @@
+/*  All */
+
+body{
+    color: #fff;
+}
+div ul li{
+    padding-left: 5vh;
+    list-style-type: none;
+    /* background-color: yellow; */
+
+}
+
+div img{
+    max-width: 60px;
+}
+/* Display flex */
+.flex-header {
+    display: flex;
+    background-color: DodgerBlue;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  /* .flex-header > div {
+    background-color: #f1f1f1;
+
+} */
+
+div.flex-menu ul{
+    display: flex;
+    /* background-color: red; */
+
+    flex-direction: row;
+
+    justify-items: space-between;
+    align-items: center;
+   
+}
+
+div.flex-img ul{
+    display: flex;
+    /* background-color: red; */
+
+    flex-direction: row;
+
+    justify-items: space-between;
+    align-items: center;
+   
+}
+
+.flex-img ul li:nth-child(2) img{
+    padding-right: 5vh;
+    border-radius: 50%;
+}
+.flex-img ul li:nth-child(1) img{
+    filter: saturate(0.5) hue-rotate(30deg);
+}
+
+
+

@@ -1,0 +1,48 @@
+/* CSS para criar um gradiente de cor linear de azul claro para azul escuro em um elemento.
+     --> */
+
+table, th, td {
+    border: 1px solid;
+}
+
+/* Colors */
+
+ table th.tab-01{
+    background-color: red;
+}
+ table th.tab-02{
+    background-color: lime;
+}
+ table th.tab-03{
+    background-color: purple;
+}
+ table th.tab-04{
+    background-color: pink;
+}
+ table th.tab-05{
+    background-color: orange;
+}
+ table th.tab-06{
+    background-color: yellow;
+}
+ table th.tab-07{
+    background-color: darkcyan;
+}
+ table th.tab-08{
+    background-color: cyan;
+}
+ table th.tab-09{
+    background-color: blue;
+}
+ table th.tab-10{
+    background-color: violet;
+}
+ table th.tab-11{
+    background-color: green;
+}
+ table th.tab-11{
+    background-color: lemonchiffon;
+}
+ table th.tab-12{
+    background-color: orangered;
+}

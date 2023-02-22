@@ -1,0 +1,25 @@
+/*  e aplique a ele um conjunto de propriedades do CSS, como por exemplo, cor de fundo, cor da fonte, tamanho da fonte, largura, altura, borda, e ao passar o mouse por cima do botão devera inverter a cor do texto com a cor do fundo */
+
+div button{
+    background-color: red;
+    color: #fff;
+    font-size: xx-large;
+    width: 200px;
+    height: 50px;
+    border: solid, 1px;
+    border-color: red;
+    border-radius: 25px;
+
+}
+
+div button:hover{
+    background-color: #fff;
+    color: red;
+    font-size: xx-large;
+    width: 200px;
+    height: 50px;
+    border: solid, 1px;
+    border-color: red;
+    border-radius: 25px;
+    
+}

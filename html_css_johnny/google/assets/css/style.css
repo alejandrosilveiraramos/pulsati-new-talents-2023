@@ -1,0 +1,128 @@
+/*  All */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+footer{
+    background: #F2F2F2;
+    color: #70757A;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+
+div ul li{
+    padding-left: 5vh;
+    margin-top: 2vh;
+    list-style-type: none;
+    /* background-color: yellow; */
+
+}
+
+
+/* Display flex */
+.flex-header {
+    display: flex;
+    /* background-color: DodgerBlue; */
+
+    flex-direction: row;
+
+    justify-content: flex-end;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  
+  /* .flex-header > div {
+    background-color: #f1f1f1;
+
+} */
+
+div.flex-menu ul{
+    display: flex;
+    /* background-color: red; */
+
+    flex-direction: row;
+
+    justify-items: space-between;
+    align-items: center;
+   
+}
+
+div.flex-img ul{
+    display: flex;
+    /* background-color: red; */
+
+    flex-direction: row;
+
+    justify-items: space-between;
+    align-items: center;
+   
+}
+
+.flex-img ul li:nth-child(2) img{
+    margin-right: 2vh;
+    max-width: 60px;
+    border-radius: 50%;
+}
+.flex-img ul li:nth-child(1) img{
+    filter: saturate(0.5) hue-rotate(30deg);
+}
+
+
+.flex-footer {
+    display: flex;
+
+    flex-direction: column;
+    
+}
+
+.flex-footer-menu {
+    /* background-color: red; */
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+ p{
+    margin: 2vh 1vh 2vh 1vh;
+}
+
+.flex-footer-menu ul{
+    /* background-color: red; */
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.flex-section{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+/* .google-img{
+    max-width: 100%;
+} */
+img.google {
+    transform: scale(.42);
+    margin-top: -50px;
+}
+
+.google-search input{
+    margin-top: -20px;
+    border: solid 1px #e7e7e7;
+    border-radius: 25px;
+    padding:14px 180px 14px 180px;
+
+}
