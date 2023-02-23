@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+div img{
+    margin-top: 40px;
+    margin-left: 60px;
+    
+}
+
+.grad-back{
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    
+    background: linear-gradient(180deg,rgba(0,0,0,.5) 25%,transparent);
+}
+.grad-back div{
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+    
+    margin-right: 60px;
+
+}
+
+
+.background-img {
+    position: fixed;
+
+    left: 0;
+    right: 0;
+
+    z-index: -1;
+
+    display: block;
+
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.49), 
+        rgba(0, 0, 0, 0.49)
+      ), url('../img/BR-pt-20230220-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+
+
+    width: 100%;
+    height: 100%;
+
+    filter: blur(.5px);
+    
+}
+header {
+    color: #333333;
+    display: flex;
+
+    flex-direction: row;
+
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+    padding: 25px;
+}
+
+
+.space-header {
+    margin-left: 10px;
+    font-size: 17.6px;
+}
+
+.space-header-learn {
+    margin-left: 20px;
+}
+.span-style {
+    color: #fff;
+
+    font-size: 12.8px;
+    
+    background-color: #E50914;
+    border: solid 1px;
+    padding:6px 10px 4px 10px;
+    border-color: #E50914;
+    border-radius: 25px;
+    
+}
+
+
+.price{
+    font-size: 20.8px;
+}
+.know-more{
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.know-more:hover{
+    color: #0085eb;
+    text-decoration: none;
+}
+section{
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+   
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 5px 3px;
+}
+.box form select{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    appearance:none;
+}
+
+.box form {
+    color: #fff;
+   
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-btn {
+    background-color: #E50914;
+    border: 1px solid #E50914;
+    padding: 10px 25px;
+    border-radius: 3px;
+    margin-left: 20px;
+}

@@ -1,0 +1,137 @@
+/*  All */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+body{
+    background-color: #ECECEB;
+}
+
+header {
+    background-color: #fff;
+    
+    font-size: 14px;
+}
+
+.flex-header {
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+    list-style-type: none;
+    
+}
+header.flex-header{
+    border-bottom: 1px solid #d4d6db;
+}
+
+
+.flex-header ul{
+    display: flex;
+
+    flex-direction: row;
+    list-style-type: none;
+
+    align-items: center;
+    
+    
+}
+
+.flex-header li{
+    padding: 18px 6px;
+    
+}
+
+.flex-header ul:nth-child(1) li:nth-child(1){
+    border-right: 1px solid #eceff5;
+    
+}
+
+.flex-header button {
+    color: #fff;
+    background-color: #0AC5D4;
+
+    border: solid 10px;
+    border-color: #0AC5D4;
+    border-radius: 25px;
+
+}
+
+.flex-header button:hover {
+    color: #fff;
+    background-color: #59D6CD;
+
+    border: solid 10px;
+    border-color: #59D6CD;
+    border-radius: 25px;
+
+}
+.flex-header ul li:nth-child(2) b{
+    color: #6e6e6e;
+    display: flex;
+
+    flex-direction: row;
+    list-style-type: none;
+
+    align-items: center;
+}
+
+
+.flex-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 25px;
+}
+.flex-section div{
+    margin: 0px 10px 0px 0px;
+}
+
+.flex-section div p:nth-child(1) b{
+    font-size: 26px;
+}
+.flex-section div p:nth-child(2) b{
+    font-size: 60px;
+}
+.flex-section div p {
+    font-size: 24px;
+   
+}
+
+
+
+.flex-section button{
+    color: #fff;
+    background-color: #253A44;
+
+    font-size: 16px;
+    border: solid 1px;
+    border-color: #253A44;
+    border-radius: 5px;
+    padding: 15px 15px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.flex-section button:hover{
+    color: #253A44;
+    background-color: #fff;
+    font-size: 16px;
+    border: solid 2px;
+    border-color: #253A44;
+    border-radius: 5px;
+
+    
+}
+
+.p-size {
+    color: #424242;
+     margin-top: 25px; margin-top: 25px;
+}
